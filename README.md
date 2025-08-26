@@ -142,7 +142,7 @@ Multiple output formats for different stakeholders:
 
 ```bash
 # Clone repository
-git clone <https://github.com/vaibhavd030/etl_15g.git>
+git clone https://github.com/vaibhavd030/etl_15g.git
 
 # Create virtual environment
 python3 -m venv .venv
