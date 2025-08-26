@@ -1,0 +1,13 @@
+# Core dependencies
+pydantic>=2.0.0
+pydantic-settings>=2.0.0  # Required for BaseSettings in Pydantic v2
+python-dotenv>=1.0.0
+
+# Optional for enhanced functionality
+pandas>=2.0.0  # DataFrame operations
+pyarrow>=14.0.0  # Parquet support
+
+# Testing dependencies
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.0

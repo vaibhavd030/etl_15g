@@ -1,0 +1,160 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+.env/
+venv.bak/
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+htmlcov/
+.coveragerc
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Project specific
+data_input/
+output/
+logs/
+*.log
+json_analysis_summary.json
+json_analysis_report.json
+
+# Data files
+*.json
+*.csv
+*.parquet
+*.json.gz
+*.xlsx
+*.xls
+# Keep configuration files
+!pytest.ini
+!docker-compose.yml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+# Keep example
+!.env.example
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+.vimrc
+*.vim
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Docker
+.dockerignore.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+~$*
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Monitoring
+*.pid
+*.seed
+*.pid.lock
+
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# Test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+.hypothesis/
+.pytest_cache/
+coverage.xml
+*.py,cover
